@@ -285,7 +285,7 @@ System.register("chunks:///_virtual/border.ts", ['./rollupPluginModLoBabelHelper
 });
 
 System.register("chunks:///_virtual/border2.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
-  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, Color, VideoPlayer, Sprite, Node, UITransform, Mask, Graphics, Component;
+  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, Color, VideoPlayer, Sprite, Mask, Node, Graphics, UITransform, Component;
   return {
     setters: [function (module) {
       _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
@@ -298,10 +298,10 @@ System.register("chunks:///_virtual/border2.ts", ['./rollupPluginModLoBabelHelpe
       Color = module.Color;
       VideoPlayer = module.VideoPlayer;
       Sprite = module.Sprite;
-      Node = module.Node;
-      UITransform = module.UITransform;
       Mask = module.Mask;
+      Node = module.Node;
       Graphics = module.Graphics;
+      UITransform = module.UITransform;
       Component = module.Component;
     }],
     execute: function () {
@@ -325,154 +325,97 @@ System.register("chunks:///_virtual/border2.ts", ['./rollupPluginModLoBabelHelpe
           _initializerDefineProperty(_this, "borderWidth", _descriptor2, _assertThisInitialized(_this));
           _initializerDefineProperty(_this, "borderColor", _descriptor3, _assertThisInitialized(_this));
           // Emas
-          _this._videoApplied = false;
+          _this._mask = null;
+          _this._borderGraphics = null;
           _this._lastWidth = 0;
           _this._lastHeight = 0;
-          // Komponen Kloning Virtual untuk mengakali batasan Cocos
-          _this._maskNode = null;
-          _this._cloneNode = null;
-          _this._borderNode = null;
-          _this._origSprite = null;
-          _this._cloneSprite = null;
+          _this._videoApplied = false;
           return _this;
         }
         var _proto = RoundedBorder.prototype;
         _proto.onLoad = function onLoad() {
-          // 1. VIDEOPLAYER (Langsung tembus HTML)
+          // 1. Handle VideoPlayer
           if (this.getComponent(VideoPlayer)) return;
 
-          // 2. GAMBAR SPRITE / ANIMASI
-          this._origSprite = this.getComponent(Sprite);
-          if (!this._origSprite) return;
+          // 2. Ambil Sprite Asli (Zeus) dan pasang Mask langsung di sini
+          // Kita tidak mematikan sprite asli lagi (enabled = true)
+          var sprite = this.getComponent(Sprite);
+          if (!sprite) return;
 
-          // MATIKAN GAMBAR ASLI: Kita sembunyikan gambar aslinya (agar kotak tajamnya tidak terlihat dan tidak error bentrok dengan Graphics)
-          this._origSprite.enabled = false;
+          // Pasang Mask langsung pada Node ini agar Sprite terpotong bulat
+          this._mask = this.getComponent(Mask);
+          if (!this._mask) {
+            this._mask = this.addComponent(Mask);
+          }
+          this._mask.type = Mask.Type.GRAPHICS_STENCIL;
 
-          // BIKIN GUNTING VIRTUAL: Sebagai anak dari node ini
-          this._maskNode = new Node("VirtualMask");
-          this._maskNode.layer = this.node.layer;
-          this.node.addChild(this._maskNode);
-          this._maskNode.addComponent(UITransform);
-          var mask = this._maskNode.addComponent(Mask);
-          mask.type = Mask.Type.GRAPHICS_STENCIL;
+          // 3. Buat Node Border sebagai SIBLING (Saudara)
+          // Harus jadi saudara agar Border tidak ikut terpotong oleh Mask
+          var borderNode = new Node("GoldBorder");
+          borderNode.layer = this.node.layer;
 
-          // BIKIN KLONING GAMBAR: Di dalam perut Gunting (supaya ikut terpotong)
-          this._cloneNode = new Node("VirtualSprite");
-          this._cloneNode.layer = this.node.layer;
-          this._maskNode.addChild(this._cloneNode);
-          this._cloneNode.addComponent(UITransform);
-          this._cloneSprite = this._cloneNode.addComponent(Sprite);
-
-          // BIKIN BORDER EMAS: Di luar gunting agar tintanya tebal sempurna
-          this._borderNode = new Node("VirtualBorder");
-          this._borderNode.layer = this.node.layer;
-          this.node.addChild(this._borderNode);
-          this._borderNode.addComponent(UITransform);
-          this._borderNode.addComponent(Graphics);
+          // Pasangkan ke parent agar posisinya mengikuti node utama (game1)
+          if (this.node.parent) {
+            this.node.parent.addChild(borderNode);
+          }
+          this._borderGraphics = borderNode.addComponent(Graphics);
+          borderNode.addComponent(UITransform);
         };
         _proto.update = function update() {
-          // ========== BAGIAN VIDEOPLAYER ==========
           var vp = this.getComponent(VideoPlayer);
           if (vp) {
-            if (this._videoApplied) return;
-            var impl = vp._impl;
-            if (impl && impl._video) {
-              var domVideo = impl._video;
-              var rStr = this.borderColor.r.toString(16);
-              var gStr = this.borderColor.g.toString(16);
-              var bStr = this.borderColor.b.toString(16);
-              var r = ('00' + rStr).slice(-2);
-              var _g = ('00' + gStr).slice(-2);
-              var b = ('00' + bStr).slice(-2);
-              var hex = "#" + r + _g + b;
-              domVideo.style.border = this.borderWidth + "px solid " + hex;
-              domVideo.style.borderRadius = this.borderRadius + "px";
-              domVideo.style.boxSizing = 'border-box';
-              this._videoApplied = true;
-            }
+            this.handleVideoPlayer(vp);
             return;
           }
-
-          // ========== BAGIAN SPRITE COCOS ==========
-          if (!this._origSprite || !this._cloneSprite || !this._maskNode || !this._borderNode) return;
-
-          // SELALU PASTIKAN ORIGINAL SPRITE INVISIBLE (karena Animasi Cocos kadang memaksanya menyala lagi)
-          if (this._origSprite.enabled) this._origSprite.enabled = false;
-
-          // SINKRONISASI KLONING: Copy semua gerak-gerik Animasi ke Kloning kita secara live (HANYA JIKA BERUBAH untuk hemat RAM/CPU)
-          if (this._cloneSprite.spriteFrame !== this._origSprite.spriteFrame) {
-            this._cloneSprite.spriteFrame = this._origSprite.spriteFrame;
-          }
-          if (!this._cloneSprite.color.equals(this._origSprite.color)) {
-            this._cloneSprite.color = this._origSprite.color;
-          }
-          if (this._cloneSprite.type !== this._origSprite.type) {
-            this._cloneSprite.type = this._origSprite.type;
-          }
-          if (this._cloneSprite.sizeMode !== this._origSprite.sizeMode) {
-            this._cloneSprite.sizeMode = this._origSprite.sizeMode;
-          }
-          if (this._cloneSprite.trim !== this._origSprite.trim) {
-            this._cloneSprite.trim = this._origSprite.trim;
-          }
-          if (this._cloneSprite.fillType !== this._origSprite.fillType) {
-            this._cloneSprite.fillType = this._origSprite.fillType;
-          }
-          if (this._cloneSprite.fillRange !== this._origSprite.fillRange) {
-            this._cloneSprite.fillRange = this._origSprite.fillRange;
-          }
-          if (this._cloneSprite.customMaterial !== this._origSprite.customMaterial) {
-            this._cloneSprite.customMaterial = this._origSprite.customMaterial;
-          }
-
-          // UKURAN DAN ANCHOR
-          var uiTrans = this.getComponent(UITransform);
+          this.syncAndDraw();
+        };
+        _proto.syncAndDraw = function syncAndDraw() {
+          var uiTrans = this.node.getComponent(UITransform);
           var w = uiTrans.width;
           var h = uiTrans.height;
-          var ax = uiTrans.anchorX;
-          var ay = uiTrans.anchorY;
-          var x = -w * ax;
-          var y = -h * ay;
 
-          // Baterai Saver: CPU Optimization
-          var cacheR = this._lastRad || -1;
-          var cacheB = this._lastBW || -1;
-          if (this._lastWidth === w && this._lastHeight === h && cacheR === this.borderRadius && cacheB === this.borderWidth) {
-            return;
+          // Samakan posisi node border dengan node utama secara live
+          if (this._borderGraphics) {
+            this._borderGraphics.node.worldPosition = this.node.worldPosition;
+            this._borderGraphics.node.worldRotation = this.node.worldRotation;
+            this._borderGraphics.node.worldScale = this.node.worldScale;
           }
+
+          // Hemat CPU: Hanya gambar ulang jika ukuran berubah
+          if (this._lastWidth === w && this._lastHeight === h) return;
           this._lastWidth = w;
           this._lastHeight = h;
-          this._lastRad = this.borderRadius;
-          this._lastBW = this.borderWidth;
+          var x = -w * uiTrans.anchorX;
+          var y = -h * uiTrans.anchorY;
 
-          // Samakan ukuran ketiga Virtual Node mengikuti Node Asli (game1) HANYA jika berubah
-          [this._maskNode, this._cloneNode, this._borderNode].forEach(function (n) {
-            var t = n.getComponent(UITransform);
-            t.setContentSize(w, h);
-            t.setAnchorPoint(ax, ay);
-          });
-
-          // 1. NGENG... GUNTING MASK BEKERJA
-          var mask = this._maskNode.getComponent(Mask);
-          var mg = mask.graphics || this._maskNode.getComponent(Graphics);
-          if (mg) {
-            mg.clear();
-            // POTONGAN KE DALAM: Menyusutkan gunting setengah dari ketebalan border agar sisi-sisi gambar 100% tertutup pigura emas
-            var shrink = this.borderWidth / 2 + 0.6; // Tambah 0.6 pixel ekstra aman untuk menutup gerigi anti-aliasing
-            var innerRadius = this.borderRadius - shrink;
-            if (innerRadius < 0) innerRadius = 0;
-            mg.roundRect(x + shrink, y + shrink, w - shrink * 2, h - shrink * 2, innerRadius);
-            mg.fillColor = Color.WHITE;
-            mg.fill();
+          // 1. Update Gunting (Mask)
+          var maskG = this._mask.graphics || this._mask.getComponent(Graphics);
+          if (maskG) {
+            maskG.clear();
+            maskG.roundRect(x, y, w, h, this.borderRadius);
+            maskG.fill();
           }
 
-          // 2. NGENG... SPIDOL EMAS MENGGAMBAR (Di atas hasil potongan gambar)
-          var g = this._borderNode.getComponent(Graphics);
-          g.clear();
-          g.lineWidth = this.borderWidth;
-          g.strokeColor = this.borderColor;
-          g.roundRect(x, y, w, h, this.borderRadius);
-          g.stroke();
+          // 2. Update Border Emas
+          if (this._borderGraphics) {
+            this._borderGraphics.clear();
+            this._borderGraphics.lineWidth = this.borderWidth;
+            this._borderGraphics.strokeColor = this.borderColor;
+            this._borderGraphics.roundRect(x, y, w, h, this.borderRadius);
+            this._borderGraphics.stroke();
+          }
+        };
+        _proto.handleVideoPlayer = function handleVideoPlayer(vp) {
+          if (this._videoApplied) return;
+          var impl = vp._impl;
+          if (impl && impl._video) {
+            var domVideo = impl._video;
+            var hex = "#" + this.borderColor.toHEX();
+            domVideo.style.border = this.borderWidth + "px solid " + hex;
+            domVideo.style.borderRadius = this.borderRadius + "px";
+            domVideo.style.boxSizing = 'border-box';
+            this._videoApplied = true;
+          }
         };
         return RoundedBorder;
       }(Component), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "borderRadius", [_dec2], {

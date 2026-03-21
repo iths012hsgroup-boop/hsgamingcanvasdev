@@ -1,8 +1,4 @@
-System.register("chunks:///_virtual/flash", [], function () {
-  return {
-    execute: function () {}
-  };
-});
+System.register("chunks:///_virtual/flash",[],(function(){return{execute:function(){}}}));
 
 (function(r) {
   r('virtual:///prerequisite-imports/flash', 'chunks:///_virtual/flash'); 

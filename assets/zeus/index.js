@@ -1,8 +1,4 @@
-System.register("chunks:///_virtual/zeus", [], function () {
-  return {
-    execute: function () {}
-  };
-});
+System.register("chunks:///_virtual/zeus",[],(function(){return{execute:function(){}}}));
 
 (function(r) {
   r('virtual:///prerequisite-imports/zeus', 'chunks:///_virtual/zeus'); 

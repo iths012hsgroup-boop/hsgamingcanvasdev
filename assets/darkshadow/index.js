@@ -1,8 +1,4 @@
-System.register("chunks:///_virtual/darkshadow", [], function () {
-  return {
-    execute: function () {}
-  };
-});
+System.register("chunks:///_virtual/darkshadow",[],(function(){return{execute:function(){}}}));
 
 (function(r) {
   r('virtual:///prerequisite-imports/darkshadow', 'chunks:///_virtual/darkshadow'); 

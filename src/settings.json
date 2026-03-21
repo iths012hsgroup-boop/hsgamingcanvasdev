@@ -45,7 +45,15 @@
         "preloadAssets": [],
         "projectBundles": [
             "internal",
-            "main"
+            "main",
+            "darkshadow",
+            "flash",
+            "gametumpuk",
+            "mario",
+            "pokemon",
+            "scorpio",
+            "skull",
+            "zeus"
         ],
         "downloadMaxConcurrency": 15
     },

@@ -1,0 +1,2156 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "mario",
+    "deps": [
+        "main"
+    ],
+    "uuids": [
+        "00098715-1768-4ace-947c-1e768638709c",
+        "00098715-1768-4ace-947c-1e768638709c@f9941",
+        "00e77f0c-d35e-42a7-bd3f-e31fc58b27f9",
+        "00e77f0c-d35e-42a7-bd3f-e31fc58b27f9@f9941",
+        "01019b5b-bc22-45e7-b704-2c1262b2be01",
+        "01019b5b-bc22-45e7-b704-2c1262b2be01@f9941",
+        "011d12718",
+        "016432868",
+        "01849f28f",
+        "019d1844c",
+        "01ce7f600",
+        "024f7b43b",
+        "024fece87",
+        "02a3f0200",
+        "02aad8f4e",
+        "03077b721",
+        "03624ae32",
+        "03ba25e0c",
+        "03fbee53c",
+        "0400007c0",
+        "041b92e1-3782-4f8e-b425-5d623d16b066",
+        "041b92e1-3782-4f8e-b425-5d623d16b066@f9941",
+        "048e7fe05",
+        "053cc3b7-fd54-47de-95f4-691c8d5c3f95",
+        "053cc3b7-fd54-47de-95f4-691c8d5c3f95@f9941",
+        "056ed0135",
+        "05b73be4-7591-4803-aa54-3adf7c08225a",
+        "05b73be4-7591-4803-aa54-3adf7c08225a@f9941",
+        "06eba827-f701-4b5e-8c9f-f2a057a40c75",
+        "06eba827-f701-4b5e-8c9f-f2a057a40c75@f9941",
+        "06ee4da91",
+        "06ffad9f-d843-49db-afd4-0958d0baacbb",
+        "06ffad9f-d843-49db-afd4-0958d0baacbb@f9941",
+        "076a773ec",
+        "076b04dc8",
+        "08bc9c41-1ed6-4caf-b296-28daabb37f3a",
+        "08bc9c41-1ed6-4caf-b296-28daabb37f3a@f9941",
+        "092bd22b0",
+        "0a06ffea0",
+        "0a627ef64",
+        "0a62955ba",
+        "0a79b8459",
+        "0ad124bf0",
+        "0b65e88cc",
+        "0b9fbc66a",
+        "0c6c6f1ec",
+        "0ce8c696d",
+        "0d2a9de85",
+        "0d38751ca",
+        "0d41b0a46",
+        "0d5296b31",
+        "0d5c46a3-43fb-4a36-a665-fb09ea933232",
+        "0d5c46a3-43fb-4a36-a665-fb09ea933232@f9941",
+        "0d7e031c2",
+        "0d9a4eef-9077-4afc-8520-01367b66fcde",
+        "0d9a4eef-9077-4afc-8520-01367b66fcde@f9941",
+        "0deaa978-df0f-4003-a357-a34c1f770dda",
+        "0deaa978-df0f-4003-a357-a34c1f770dda@f9941",
+        "0e0475957",
+        "0ebde6c12",
+        "0ec992a7b",
+        "0f9ffa78-6924-4b81-84aa-db4125f68abf",
+        "0f9ffa78-6924-4b81-84aa-db4125f68abf@f9941",
+        "0fd35cf2-3fd0-43bd-ad7c-d92b316b38a1",
+        "0fd35cf2-3fd0-43bd-ad7c-d92b316b38a1@f9941",
+        "105203c1-1ba3-420c-87b6-d8c4362e71b1",
+        "105203c1-1ba3-420c-87b6-d8c4362e71b1@f9941",
+        "111d12718",
+        "111d12718@6c48a",
+        "116432868",
+        "116432868@6c48a",
+        "11849f28f",
+        "11849f28f@6c48a",
+        "119d1844c",
+        "119d1844c@6c48a",
+        "11ce7f600",
+        "11ce7f600@6c48a",
+        "11e00a5d-bc84-4675-9d70-61ce62d03134",
+        "11e00a5d-bc84-4675-9d70-61ce62d03134@f9941",
+        "124f7b43b",
+        "124f7b43b@6c48a",
+        "124fece87",
+        "124fece87@6c48a",
+        "12a3f0200",
+        "12a3f0200@6c48a",
+        "12aad8f4e",
+        "12aad8f4e@6c48a",
+        "13077b721",
+        "13077b721@6c48a",
+        "13624ae32",
+        "13624ae32@6c48a",
+        "13ba25e0c",
+        "13ba25e0c@6c48a",
+        "13fbee53c",
+        "13fbee53c@6c48a",
+        "1400007c0",
+        "1400007c0@6c48a",
+        "14872e22-99e1-494b-ad21-650564d15859",
+        "14872e22-99e1-494b-ad21-650564d15859@f9941",
+        "148e7fe05",
+        "148e7fe05@6c48a",
+        "14b4e9df-fc1c-44e2-b10d-6329ca74795e",
+        "14b4e9df-fc1c-44e2-b10d-6329ca74795e@f9941",
+        "156ed0135",
+        "156ed0135@6c48a",
+        "16ee4da91",
+        "16ee4da91@6c48a",
+        "171e661df",
+        "171e661df@6c48a",
+        "172e76d4-b098-432b-a750-c9b0bee6b141",
+        "172e76d4-b098-432b-a750-c9b0bee6b141@f9941",
+        "176a773ec",
+        "176a773ec@6c48a",
+        "176b04dc8",
+        "176b04dc8@6c48a",
+        "192bd22b0",
+        "192bd22b0@6c48a",
+        "19d629c5-bef5-4ec0-bdbf-8ee310a820a8",
+        "19d629c5-bef5-4ec0-bdbf-8ee310a820a8@f9941",
+        "1a06ffea0",
+        "1a06ffea0@6c48a",
+        "1a627ef64",
+        "1a627ef64@6c48a",
+        "1a62955ba",
+        "1a62955ba@6c48a",
+        "1a79b8459",
+        "1a79b8459@6c48a",
+        "1abd8aec-cc8f-4421-8f3d-599c5e814fc4",
+        "1abd8aec-cc8f-4421-8f3d-599c5e814fc4@f9941",
+        "1b65e88cc",
+        "1b65e88cc@6c48a",
+        "1b9fbc66a",
+        "1b9fbc66a@6c48a",
+        "1c6c6f1ec",
+        "1c6c6f1ec@6c48a",
+        "1cb73394-c08d-4dd6-959e-c69b48574cc8",
+        "1cb73394-c08d-4dd6-959e-c69b48574cc8@f9941",
+        "1ce8c696d",
+        "1ce8c696d@6c48a",
+        "1d2a9de85",
+        "1d2a9de85@6c48a",
+        "1d38751ca",
+        "1d38751ca@6c48a",
+        "1d41b0a46",
+        "1d41b0a46@6c48a",
+        "1d5296b31",
+        "1d5296b31@6c48a",
+        "1d7e031c2",
+        "1d7e031c2@6c48a",
+        "1e0475957",
+        "1e0475957@6c48a",
+        "1e8da591-a251-4b51-9c2d-c444d98324a0",
+        "1e8da591-a251-4b51-9c2d-c444d98324a0@f9941",
+        "1ebde6c12",
+        "1ebde6c12@6c48a",
+        "1ec992a7b",
+        "1ec992a7b@6c48a",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "20d21f8f-e8f8-4f48-b8a4-5f209b2c116f",
+        "20d21f8f-e8f8-4f48-b8a4-5f209b2c116f@f9941",
+        "24b5a86b-a3bb-4c56-8ec2-eb55e2a3eb3d",
+        "24b5a86b-a3bb-4c56-8ec2-eb55e2a3eb3d@f9941",
+        "269de738-c141-4850-ade3-54f03f6625c3",
+        "269de738-c141-4850-ade3-54f03f6625c3@f9941",
+        "26bd1f87-90bb-4d2d-baa1-8a5de3527507",
+        "26bd1f87-90bb-4d2d-baa1-8a5de3527507@f9941",
+        "28899809-3fa5-4e97-9fd9-0b5d4496b985",
+        "28899809-3fa5-4e97-9fd9-0b5d4496b985@f9941",
+        "28ca6e72-c2e5-4a82-9699-0cb2cd8e0e62",
+        "28ca6e72-c2e5-4a82-9699-0cb2cd8e0e62@f9941",
+        "2b5b5b94-22c2-4ce3-85d6-53f2ae63403c",
+        "2b5b5b94-22c2-4ce3-85d6-53f2ae63403c@f9941",
+        "2c37287f-cad7-419a-902b-69cd38d0f798",
+        "2c37287f-cad7-419a-902b-69cd38d0f798@f9941",
+        "2d3673e0-1b54-4731-bd67-22902478fec4",
+        "2d3673e0-1b54-4731-bd67-22902478fec4@f9941",
+        "320226c2-c8b5-453b-aa95-ff9488602a69",
+        "320226c2-c8b5-453b-aa95-ff9488602a69@f9941",
+        "348aa960-42b6-4e5a-8db1-d1e0bd9db8d2",
+        "348aa960-42b6-4e5a-8db1-d1e0bd9db8d2@f9941",
+        "34969bcd-c48b-43c4-8b23-60d29e3d618d",
+        "34969bcd-c48b-43c4-8b23-60d29e3d618d@f9941",
+        "3620baad-5e9d-41b2-b3bb-7e2ea88fda94",
+        "3620baad-5e9d-41b2-b3bb-7e2ea88fda94@f9941",
+        "3833b588-3bab-438b-86ea-34581a5fb9a6",
+        "3833b588-3bab-438b-86ea-34581a5fb9a6@f9941",
+        "38d90121-fa90-48db-8431-c2a44ed1abf6",
+        "38d90121-fa90-48db-8431-c2a44ed1abf6@f9941",
+        "3acb362e-f670-4507-acf8-5e317d1558a6",
+        "3acb362e-f670-4507-acf8-5e317d1558a6@f9941",
+        "3d4f2f8b-ed7f-4d4f-8c48-392c3b709699",
+        "3d4f2f8b-ed7f-4d4f-8c48-392c3b709699@f9941",
+        "40589f18-30db-4cf0-9586-27ebdf893a9d",
+        "40589f18-30db-4cf0-9586-27ebdf893a9d@f9941",
+        "436a0b31-4e7f-45d3-a506-cb114d6bbc34",
+        "436a0b31-4e7f-45d3-a506-cb114d6bbc34@f9941",
+        "462de424-d7fd-4c6b-afb3-971071909b0c",
+        "462de424-d7fd-4c6b-afb3-971071909b0c@f9941",
+        "4880344b-4345-462d-b00c-655652206413",
+        "4880344b-4345-462d-b00c-655652206413@f9941",
+        "4981aef6-eb01-464f-af82-60942eb5db2c",
+        "4981aef6-eb01-464f-af82-60942eb5db2c@f9941",
+        "49fab386-23b5-4c40-942f-a481b9abf979",
+        "49fab386-23b5-4c40-942f-a481b9abf979@f9941",
+        "501306fd-b712-41a0-b06b-da1fab075261",
+        "501306fd-b712-41a0-b06b-da1fab075261@f9941",
+        "50cc5629-1ac8-48c7-8a9e-9e3bec026534",
+        "50cc5629-1ac8-48c7-8a9e-9e3bec026534@f9941",
+        "51b5f0f7-def5-42ed-8751-7f6a0372f9b1",
+        "51b5f0f7-def5-42ed-8751-7f6a0372f9b1@f9941",
+        "52abbeb3-c36e-48d8-aea4-f147210020ca",
+        "52abbeb3-c36e-48d8-aea4-f147210020ca@f9941",
+        "53959991-d888-48f9-83eb-d1b468a80d03",
+        "53959991-d888-48f9-83eb-d1b468a80d03@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "545f4376-35ad-47c6-8fe8-d2f40580d257",
+        "545f4376-35ad-47c6-8fe8-d2f40580d257@f9941",
+        "55ce76d8-3c28-407a-b34c-55ab7af416c9",
+        "55ce76d8-3c28-407a-b34c-55ab7af416c9@f9941",
+        "571df984-09f5-4a43-abed-cdedc2942975",
+        "571df984-09f5-4a43-abed-cdedc2942975@f9941",
+        "574fc160-31c4-45c0-abf7-469790bdc982",
+        "574fc160-31c4-45c0-abf7-469790bdc982@f9941",
+        "586258f5-2f48-4303-8a45-35b62c45d128",
+        "586258f5-2f48-4303-8a45-35b62c45d128@f9941",
+        "58b67437-0b16-415d-80fd-5e01409e654c",
+        "58b67437-0b16-415d-80fd-5e01409e654c@f9941",
+        "58fbaa94-2eac-4b97-8506-67e589153fef",
+        "58fbaa94-2eac-4b97-8506-67e589153fef@f9941",
+        "5b7893da-79f2-4129-9ea8-957cd67f3d67",
+        "5b7893da-79f2-4129-9ea8-957cd67f3d67@f9941",
+        "5c4c4641-5eb3-4678-ad02-e9b6f426d6c7",
+        "5c4c4641-5eb3-4678-ad02-e9b6f426d6c7@f9941",
+        "5d97e9c7-6dc4-4dc3-b7d7-2e18528b6f7f",
+        "5d97e9c7-6dc4-4dc3-b7d7-2e18528b6f7f@f9941",
+        "5e238b29-a3f0-4f93-a40e-04dd7f3e9897",
+        "5e238b29-a3f0-4f93-a40e-04dd7f3e9897@f9941",
+        "622d8ac1-d9b3-4636-be58-ef75258fbba0",
+        "622d8ac1-d9b3-4636-be58-ef75258fbba0@f9941",
+        "62bb53c1-232a-472b-88c0-b9958c080b65",
+        "62bb53c1-232a-472b-88c0-b9958c080b65@f9941",
+        "63df2df0-5165-4e3f-8d0c-0e643ca49120",
+        "63df2df0-5165-4e3f-8d0c-0e643ca49120@f9941",
+        "690542cd-0ae8-4cde-930c-19c16e003bcd",
+        "690542cd-0ae8-4cde-930c-19c16e003bcd@f9941",
+        "6b5d479a-fee3-4135-ac87-11010d3b02fa",
+        "6b5d479a-fee3-4135-ac87-11010d3b02fa@f9941",
+        "6c20d773-9624-4d8a-85ce-a615c83b5bcd",
+        "6c20d773-9624-4d8a-85ce-a615c83b5bcd@f9941",
+        "6f330d67-cd16-4d13-8148-ddd616684661",
+        "6f330d67-cd16-4d13-8148-ddd616684661@f9941",
+        "71922781-45b0-41b8-9092-9f1a573cc7d0",
+        "71922781-45b0-41b8-9092-9f1a573cc7d0@f9941",
+        "737cbe55-9016-44d5-94ee-baa4070520e6",
+        "737cbe55-9016-44d5-94ee-baa4070520e6@f9941",
+        "7570b2e5-c7d1-4b57-a8ce-72b8aaa2fe9b",
+        "7570b2e5-c7d1-4b57-a8ce-72b8aaa2fe9b@f9941",
+        "7724492d-1f4c-41f7-ae4d-f765be8ac231",
+        "7724492d-1f4c-41f7-ae4d-f765be8ac231@f9941",
+        "774ebcfc-75c5-4609-9751-0f4805c3adcf",
+        "774ebcfc-75c5-4609-9751-0f4805c3adcf@f9941",
+        "77c3897f-3413-4b62-b942-3458757d9f74",
+        "77c3897f-3413-4b62-b942-3458757d9f74@f9941",
+        "78d21cd2-edfe-4dba-88f2-b178570a10cc",
+        "78d21cd2-edfe-4dba-88f2-b178570a10cc@f9941",
+        "7ad0a36c-73da-46d0-a174-b58c70a58c50",
+        "7ad0a36c-73da-46d0-a174-b58c70a58c50@f9941",
+        "7be9afd2-74c6-41b3-8ae5-81db8583ea1c",
+        "7be9afd2-74c6-41b3-8ae5-81db8583ea1c@f9941",
+        "7e1923a7-efd7-4c74-ae53-94689e0adea2",
+        "7e1923a7-efd7-4c74-ae53-94689e0adea2@f9941",
+        "8346c1d0-3ca0-4350-9312-e6ef2933d2e8",
+        "8346c1d0-3ca0-4350-9312-e6ef2933d2e8@f9941",
+        "84b52de0-edfc-4e1b-9c6a-219103c6bbb3",
+        "84b52de0-edfc-4e1b-9c6a-219103c6bbb3@f9941",
+        "85050199-139e-4d40-93c7-d73f97a60df4",
+        "85050199-139e-4d40-93c7-d73f97a60df4@f9941",
+        "8628fd8d-4862-4195-8d5e-300ead56bd76",
+        "8628fd8d-4862-4195-8d5e-300ead56bd76@f9941",
+        "89ba6ec0-4278-4172-81c6-d011461e8498",
+        "89ba6ec0-4278-4172-81c6-d011461e8498@f9941",
+        "8a28f233-c761-4f28-b27d-32678e19ca88",
+        "8a28f233-c761-4f28-b27d-32678e19ca88@f9941",
+        "8de7a9bb-a18c-4acc-9c41-3287583aa04b",
+        "8de7a9bb-a18c-4acc-9c41-3287583aa04b@f9941",
+        "8e209c35-31cf-4ca7-9847-e494b4f25e6a",
+        "8e209c35-31cf-4ca7-9847-e494b4f25e6a@f9941",
+        "8e9579db-2944-4e00-854c-3d06050e45bc",
+        "8e9579db-2944-4e00-854c-3d06050e45bc@f9941",
+        "91930e4b-e97f-4b91-8973-80d364b97b12",
+        "91930e4b-e97f-4b91-8973-80d364b97b12@f9941",
+        "9446cea1-43f2-4e6a-bde4-30f4cbfbab77",
+        "9446cea1-43f2-4e6a-bde4-30f4cbfbab77@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "97dc1f22-cdf2-493a-903b-a1e1790f244e",
+        "97dc1f22-cdf2-493a-903b-a1e1790f244e@f9941",
+        "98c0590f-cd64-4b32-bc58-f9ab57c8e175",
+        "98c0590f-cd64-4b32-bc58-f9ab57c8e175@f9941",
+        "9959dd70-57f1-4f68-a3cb-7b1e96410a91",
+        "9959dd70-57f1-4f68-a3cb-7b1e96410a91@f9941",
+        "9af555c8-6a35-441f-8c1b-f06c430189fe",
+        "9af555c8-6a35-441f-8c1b-f06c430189fe@f9941",
+        "9bad7863-fc2f-4cc6-a2c3-a9f1a32b76d3",
+        "9bad7863-fc2f-4cc6-a2c3-a9f1a32b76d3@f9941",
+        "9dcccd90-191d-4d77-94a0-72261add45fc",
+        "9dcccd90-191d-4d77-94a0-72261add45fc@f9941",
+        "9ebefd66-fa33-4a1b-a320-f3f807143fef",
+        "9ebefd66-fa33-4a1b-a320-f3f807143fef@f9941",
+        "a4035352-ab8b-45ef-9ca2-ef10c9db87f1",
+        "a4035352-ab8b-45ef-9ca2-ef10c9db87f1@f9941",
+        "a63581d2-8d11-4769-aa72-3eafe5c5b338",
+        "a63581d2-8d11-4769-aa72-3eafe5c5b338@f9941",
+        "a901f223-49ab-4934-bf73-e76273b2dfd9",
+        "a901f223-49ab-4934-bf73-e76273b2dfd9@f9941",
+        "aa571b24-b292-4b10-8c5f-f6fab914d751",
+        "aa571b24-b292-4b10-8c5f-f6fab914d751@f9941",
+        "ac307639-dc1d-40c4-afe0-f7a8dbe15d03",
+        "ac307639-dc1d-40c4-afe0-f7a8dbe15d03@f9941",
+        "ad2a5e79-5339-403f-af78-214d2d707a6a",
+        "add69a01-8fee-4219-a027-7530fdef3595",
+        "add69a01-8fee-4219-a027-7530fdef3595@f9941",
+        "ae19965c-30ff-4354-920d-15bde6da2a58",
+        "ae19965c-30ff-4354-920d-15bde6da2a58@f9941",
+        "aed99791-6acc-4f73-842d-6b2dc2326084",
+        "aed99791-6acc-4f73-842d-6b2dc2326084@f9941",
+        "aff1191b-10a0-47d5-9f6d-f9de15c3d330",
+        "aff1191b-10a0-47d5-9f6d-f9de15c3d330@f9941",
+        "b0d6853d-6025-4e7f-9882-c94f2cb3ce1e",
+        "b0d6853d-6025-4e7f-9882-c94f2cb3ce1e@f9941",
+        "b2ebf924-9263-4629-980e-f6eded62f412",
+        "b2ebf924-9263-4629-980e-f6eded62f412@f9941",
+        "b51f8b49-4a85-48e3-bc36-3ecd5b669798",
+        "b51f8b49-4a85-48e3-bc36-3ecd5b669798@f9941",
+        "b576eaa5-7ca1-403b-9132-146cf36b151c",
+        "b576eaa5-7ca1-403b-9132-146cf36b151c@f9941",
+        "b61b48d6-0795-4978-bed2-bde43afcd7ad",
+        "b61b48d6-0795-4978-bed2-bde43afcd7ad@f9941",
+        "b9a260a4-6a98-4ab7-83ca-f7a231ff2e58",
+        "b9a260a4-6a98-4ab7-83ca-f7a231ff2e58@f9941",
+        "ba136cb0-e38d-4436-9046-ff745de44dcb",
+        "bbcd99dd-388b-4a22-9193-592597ff2138",
+        "bbcd99dd-388b-4a22-9193-592597ff2138@f9941",
+        "c284203a-a97c-400f-b08c-2331a5ea6a32",
+        "c284203a-a97c-400f-b08c-2331a5ea6a32@f9941",
+        "c3f82020-66b6-4d63-8893-c38a61122a63",
+        "c3f82020-66b6-4d63-8893-c38a61122a63@f9941",
+        "ca9c79e5-d4c0-4fb8-9dee-3a134985ac5d",
+        "ca9c79e5-d4c0-4fb8-9dee-3a134985ac5d@f9941",
+        "cd53db8b-dc9d-465b-8dda-c2bf33353fee",
+        "cd53db8b-dc9d-465b-8dda-c2bf33353fee@f9941",
+        "cedefc8a-ac8b-480e-a4a3-17dd28aa1380",
+        "cedefc8a-ac8b-480e-a4a3-17dd28aa1380@f9941",
+        "cfa89f30-c0b3-48ec-b3d3-0e5020c1e34f",
+        "cfa89f30-c0b3-48ec-b3d3-0e5020c1e34f@f9941",
+        "d116c48b-ed02-40b2-ac57-3295d5ac8d20",
+        "d116c48b-ed02-40b2-ac57-3295d5ac8d20@f9941",
+        "d3f35ad3-8281-4d2f-88b3-19cb9b77d9db",
+        "d3f35ad3-8281-4d2f-88b3-19cb9b77d9db@f9941",
+        "d4234b0e-0661-4883-aad5-157304c1c6d8",
+        "d4234b0e-0661-4883-aad5-157304c1c6d8@f9941",
+        "d4fe53ad-aae6-4f4d-8db2-0dd0b74ecbdb",
+        "d4fe53ad-aae6-4f4d-8db2-0dd0b74ecbdb@f9941",
+        "d6526033-cfe1-47f9-bd34-e2c59bf400a2",
+        "d6526033-cfe1-47f9-bd34-e2c59bf400a2@f9941",
+        "d9653ed0-ea95-4338-97d8-3edc70a35b45",
+        "d9653ed0-ea95-4338-97d8-3edc70a35b45@f9941",
+        "dc567b85-38f4-4c4e-9fdf-843ccdd2479f",
+        "dc567b85-38f4-4c4e-9fdf-843ccdd2479f@f9941",
+        "e0b5fe2c-e863-4468-a173-b72142f69ecb",
+        "e0b5fe2c-e863-4468-a173-b72142f69ecb@f9941",
+        "e31998a0-2688-43a6-bf07-181ce231c319",
+        "e31998a0-2688-43a6-bf07-181ce231c319@f9941",
+        "e67f78ff-3b04-4a86-bb9f-07371cec9a22",
+        "e67f78ff-3b04-4a86-bb9f-07371cec9a22@f9941",
+        "e6fc5650-7092-45dc-9cf6-d2a745167563",
+        "e6fc5650-7092-45dc-9cf6-d2a745167563@f9941",
+        "e6fc6f89-e255-44f1-b947-31ec8db9e4df",
+        "e6fc6f89-e255-44f1-b947-31ec8db9e4df@f9941",
+        "eb58410b-c3d0-4e84-81ac-8c51ccdbf646",
+        "eb58410b-c3d0-4e84-81ac-8c51ccdbf646@f9941",
+        "eb716c6e-cba8-4f1a-88ea-a5bd3640b226",
+        "eb716c6e-cba8-4f1a-88ea-a5bd3640b226@f9941",
+        "eb8459fd-3bb7-465c-9b52-50d037509516",
+        "eb8459fd-3bb7-465c-9b52-50d037509516@f9941",
+        "ec36cf6e-640c-4e33-b823-b15860c09f39",
+        "ec36cf6e-640c-4e33-b823-b15860c09f39@f9941",
+        "edbe8a0e-087a-4b1c-b275-a220b66474bc",
+        "edbe8a0e-087a-4b1c-b275-a220b66474bc@f9941",
+        "f2a6e699-d164-41ad-a7f1-86763df3f36c",
+        "f2a6e699-d164-41ad-a7f1-86763df3f36c@f9941",
+        "f8590614-aa27-43f7-8db2-2baa2b5eb8d1",
+        "f8590614-aa27-43f7-8db2-2baa2b5eb8d1@f9941",
+        "f8e479d3-f89b-4491-b6f9-d1bc351d4bb6",
+        "f8e479d3-f89b-4491-b6f9-d1bc351d4bb6@f9941",
+        "f9cabac5-40e6-4a6a-974b-3bfdd7165eb4",
+        "f9cabac5-40e6-4a6a-974b-3bfdd7165eb4@f9941",
+        "fae0daec-94bf-454c-aa7a-979c896d5755",
+        "fae0daec-94bf-454c-aa7a-979c896d5755@f9941",
+        "fb8f3b14-b1f0-46ac-b11e-742b002f83a1",
+        "fb8f3b14-b1f0-46ac-b11e-742b002f83a1@f9941",
+        "fcb49f88-38a3-42a4-9c94-baa9cbe99d44",
+        "fcb49f88-38a3-42a4-9c94-baa9cbe99d44@f9941",
+        "ff3c2aba-d74d-41f3-98dc-e452d2efef60",
+        "ff3c2aba-d74d-41f3-98dc-e452d2efef60@f9941",
+        "ffa52cbc-e338-43c7-8f11-f2a6823a1775",
+        "ffa52cbc-e338-43c7-8f11-f2a6823a1775@f9941"
+    ],
+    "paths": {
+        "f8e479d3-f89b-4491-b6f9-d1bc351d4bb6": [
+            "frame_000_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "f8e479d3-f89b-4491-b6f9-d1bc351d4bb6@f9941": [
+            "frame_000_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "98c0590f-cd64-4b32-bc58-f9ab57c8e175": [
+            "frame_001_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "98c0590f-cd64-4b32-bc58-f9ab57c8e175@f9941": [
+            "frame_001_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "63df2df0-5165-4e3f-8d0c-0e643ca49120": [
+            "frame_002_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "63df2df0-5165-4e3f-8d0c-0e643ca49120@f9941": [
+            "frame_002_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d3f35ad3-8281-4d2f-88b3-19cb9b77d9db": [
+            "frame_003_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "d3f35ad3-8281-4d2f-88b3-19cb9b77d9db@f9941": [
+            "frame_003_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "5e238b29-a3f0-4f93-a40e-04dd7f3e9897": [
+            "frame_004_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "5e238b29-a3f0-4f93-a40e-04dd7f3e9897@f9941": [
+            "frame_004_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "aff1191b-10a0-47d5-9f6d-f9de15c3d330": [
+            "frame_005_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "aff1191b-10a0-47d5-9f6d-f9de15c3d330@f9941": [
+            "frame_005_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "eb58410b-c3d0-4e84-81ac-8c51ccdbf646": [
+            "frame_006_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "eb58410b-c3d0-4e84-81ac-8c51ccdbf646@f9941": [
+            "frame_006_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7724492d-1f4c-41f7-ae4d-f765be8ac231": [
+            "frame_007_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "7724492d-1f4c-41f7-ae4d-f765be8ac231@f9941": [
+            "frame_007_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "269de738-c141-4850-ade3-54f03f6625c3": [
+            "frame_008_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "269de738-c141-4850-ade3-54f03f6625c3@f9941": [
+            "frame_008_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "aed99791-6acc-4f73-842d-6b2dc2326084": [
+            "frame_009_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "aed99791-6acc-4f73-842d-6b2dc2326084@f9941": [
+            "frame_009_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "eb716c6e-cba8-4f1a-88ea-a5bd3640b226": [
+            "frame_010_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "eb716c6e-cba8-4f1a-88ea-a5bd3640b226@f9941": [
+            "frame_010_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "77c3897f-3413-4b62-b942-3458757d9f74": [
+            "frame_011_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "77c3897f-3413-4b62-b942-3458757d9f74@f9941": [
+            "frame_011_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "2b5b5b94-22c2-4ce3-85d6-53f2ae63403c": [
+            "frame_012_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "2b5b5b94-22c2-4ce3-85d6-53f2ae63403c@f9941": [
+            "frame_012_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "01019b5b-bc22-45e7-b704-2c1262b2be01": [
+            "frame_013_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "01019b5b-bc22-45e7-b704-2c1262b2be01@f9941": [
+            "frame_013_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "85050199-139e-4d40-93c7-d73f97a60df4": [
+            "frame_014_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "85050199-139e-4d40-93c7-d73f97a60df4@f9941": [
+            "frame_014_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "71922781-45b0-41b8-9092-9f1a573cc7d0": [
+            "frame_015_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "71922781-45b0-41b8-9092-9f1a573cc7d0@f9941": [
+            "frame_015_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8e209c35-31cf-4ca7-9847-e494b4f25e6a": [
+            "frame_016_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "8e209c35-31cf-4ca7-9847-e494b4f25e6a@f9941": [
+            "frame_016_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7e1923a7-efd7-4c74-ae53-94689e0adea2": [
+            "frame_017_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "7e1923a7-efd7-4c74-ae53-94689e0adea2@f9941": [
+            "frame_017_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "14872e22-99e1-494b-ad21-650564d15859": [
+            "frame_018_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "14872e22-99e1-494b-ad21-650564d15859@f9941": [
+            "frame_018_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9dcccd90-191d-4d77-94a0-72261add45fc": [
+            "frame_019_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "9dcccd90-191d-4d77-94a0-72261add45fc@f9941": [
+            "frame_019_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "51b5f0f7-def5-42ed-8751-7f6a0372f9b1": [
+            "frame_020_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "51b5f0f7-def5-42ed-8751-7f6a0372f9b1@f9941": [
+            "frame_020_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "e6fc6f89-e255-44f1-b947-31ec8db9e4df": [
+            "frame_021_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "e6fc6f89-e255-44f1-b947-31ec8db9e4df@f9941": [
+            "frame_021_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7be9afd2-74c6-41b3-8ae5-81db8583ea1c": [
+            "frame_022_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "7be9afd2-74c6-41b3-8ae5-81db8583ea1c@f9941": [
+            "frame_022_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "320226c2-c8b5-453b-aa95-ff9488602a69": [
+            "frame_023_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "320226c2-c8b5-453b-aa95-ff9488602a69@f9941": [
+            "frame_023_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "fcb49f88-38a3-42a4-9c94-baa9cbe99d44": [
+            "frame_024_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "fcb49f88-38a3-42a4-9c94-baa9cbe99d44@f9941": [
+            "frame_024_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d6526033-cfe1-47f9-bd34-e2c59bf400a2": [
+            "frame_025_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "d6526033-cfe1-47f9-bd34-e2c59bf400a2@f9941": [
+            "frame_025_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "1e8da591-a251-4b51-9c2d-c444d98324a0": [
+            "frame_026_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "1e8da591-a251-4b51-9c2d-c444d98324a0@f9941": [
+            "frame_026_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "edbe8a0e-087a-4b1c-b275-a220b66474bc": [
+            "frame_027_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "edbe8a0e-087a-4b1c-b275-a220b66474bc@f9941": [
+            "frame_027_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "00e77f0c-d35e-42a7-bd3f-e31fc58b27f9": [
+            "frame_028_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "00e77f0c-d35e-42a7-bd3f-e31fc58b27f9@f9941": [
+            "frame_028_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8e9579db-2944-4e00-854c-3d06050e45bc": [
+            "frame_029_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "8e9579db-2944-4e00-854c-3d06050e45bc@f9941": [
+            "frame_029_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "a901f223-49ab-4934-bf73-e76273b2dfd9": [
+            "frame_030_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "a901f223-49ab-4934-bf73-e76273b2dfd9@f9941": [
+            "frame_030_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "436a0b31-4e7f-45d3-a506-cb114d6bbc34": [
+            "frame_031_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "436a0b31-4e7f-45d3-a506-cb114d6bbc34@f9941": [
+            "frame_031_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9bad7863-fc2f-4cc6-a2c3-a9f1a32b76d3": [
+            "frame_032_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "9bad7863-fc2f-4cc6-a2c3-a9f1a32b76d3@f9941": [
+            "frame_032_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "1abd8aec-cc8f-4421-8f3d-599c5e814fc4": [
+            "frame_033_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "1abd8aec-cc8f-4421-8f3d-599c5e814fc4@f9941": [
+            "frame_033_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9ebefd66-fa33-4a1b-a320-f3f807143fef": [
+            "frame_034_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "9ebefd66-fa33-4a1b-a320-f3f807143fef@f9941": [
+            "frame_034_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "26bd1f87-90bb-4d2d-baa1-8a5de3527507": [
+            "frame_035_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "26bd1f87-90bb-4d2d-baa1-8a5de3527507@f9941": [
+            "frame_035_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "06ffad9f-d843-49db-afd4-0958d0baacbb": [
+            "frame_036_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "06ffad9f-d843-49db-afd4-0958d0baacbb@f9941": [
+            "frame_036_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "53959991-d888-48f9-83eb-d1b468a80d03": [
+            "frame_037_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "53959991-d888-48f9-83eb-d1b468a80d03@f9941": [
+            "frame_037_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b2ebf924-9263-4629-980e-f6eded62f412": [
+            "frame_038_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "b2ebf924-9263-4629-980e-f6eded62f412@f9941": [
+            "frame_038_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "84b52de0-edfc-4e1b-9c6a-219103c6bbb3": [
+            "frame_039_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "84b52de0-edfc-4e1b-9c6a-219103c6bbb3@f9941": [
+            "frame_039_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "49fab386-23b5-4c40-942f-a481b9abf979": [
+            "frame_040_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "49fab386-23b5-4c40-942f-a481b9abf979@f9941": [
+            "frame_040_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "fb8f3b14-b1f0-46ac-b11e-742b002f83a1": [
+            "frame_041_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "fb8f3b14-b1f0-46ac-b11e-742b002f83a1@f9941": [
+            "frame_041_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "20d21f8f-e8f8-4f48-b8a4-5f209b2c116f": [
+            "frame_042_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "20d21f8f-e8f8-4f48-b8a4-5f209b2c116f@f9941": [
+            "frame_042_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9959dd70-57f1-4f68-a3cb-7b1e96410a91": [
+            "frame_043_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "9959dd70-57f1-4f68-a3cb-7b1e96410a91@f9941": [
+            "frame_043_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d4234b0e-0661-4883-aad5-157304c1c6d8": [
+            "frame_044_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "d4234b0e-0661-4883-aad5-157304c1c6d8@f9941": [
+            "frame_044_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "6f330d67-cd16-4d13-8148-ddd616684661": [
+            "frame_045_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "6f330d67-cd16-4d13-8148-ddd616684661@f9941": [
+            "frame_045_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3620baad-5e9d-41b2-b3bb-7e2ea88fda94": [
+            "frame_046_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "3620baad-5e9d-41b2-b3bb-7e2ea88fda94@f9941": [
+            "frame_046_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "19d629c5-bef5-4ec0-bdbf-8ee310a820a8": [
+            "frame_047_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "19d629c5-bef5-4ec0-bdbf-8ee310a820a8@f9941": [
+            "frame_047_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0d9a4eef-9077-4afc-8520-01367b66fcde": [
+            "frame_048_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "0d9a4eef-9077-4afc-8520-01367b66fcde@f9941": [
+            "frame_048_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "28899809-3fa5-4e97-9fd9-0b5d4496b985": [
+            "frame_049_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "28899809-3fa5-4e97-9fd9-0b5d4496b985@f9941": [
+            "frame_049_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "00098715-1768-4ace-947c-1e768638709c": [
+            "frame_050_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "00098715-1768-4ace-947c-1e768638709c@f9941": [
+            "frame_050_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "58b67437-0b16-415d-80fd-5e01409e654c": [
+            "frame_051_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "58b67437-0b16-415d-80fd-5e01409e654c@f9941": [
+            "frame_051_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "a4035352-ab8b-45ef-9ca2-ef10c9db87f1": [
+            "frame_052_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "a4035352-ab8b-45ef-9ca2-ef10c9db87f1@f9941": [
+            "frame_052_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8346c1d0-3ca0-4350-9312-e6ef2933d2e8": [
+            "frame_053_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "8346c1d0-3ca0-4350-9312-e6ef2933d2e8@f9941": [
+            "frame_053_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "38d90121-fa90-48db-8431-c2a44ed1abf6": [
+            "frame_054_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "38d90121-fa90-48db-8431-c2a44ed1abf6@f9941": [
+            "frame_054_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "571df984-09f5-4a43-abed-cdedc2942975": [
+            "frame_055_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "571df984-09f5-4a43-abed-cdedc2942975@f9941": [
+            "frame_055_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "6c20d773-9624-4d8a-85ce-a615c83b5bcd": [
+            "frame_056_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "6c20d773-9624-4d8a-85ce-a615c83b5bcd@f9941": [
+            "frame_056_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "545f4376-35ad-47c6-8fe8-d2f40580d257": [
+            "frame_057_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "545f4376-35ad-47c6-8fe8-d2f40580d257@f9941": [
+            "frame_057_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c284203a-a97c-400f-b08c-2331a5ea6a32": [
+            "frame_058_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "c284203a-a97c-400f-b08c-2331a5ea6a32@f9941": [
+            "frame_058_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ff3c2aba-d74d-41f3-98dc-e452d2efef60": [
+            "frame_059_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "ff3c2aba-d74d-41f3-98dc-e452d2efef60@f9941": [
+            "frame_059_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "50cc5629-1ac8-48c7-8a9e-9e3bec026534": [
+            "frame_060_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "50cc5629-1ac8-48c7-8a9e-9e3bec026534@f9941": [
+            "frame_060_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b9a260a4-6a98-4ab7-83ca-f7a231ff2e58": [
+            "frame_061_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "b9a260a4-6a98-4ab7-83ca-f7a231ff2e58@f9941": [
+            "frame_061_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "add69a01-8fee-4219-a027-7530fdef3595": [
+            "frame_062_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "add69a01-8fee-4219-a027-7530fdef3595@f9941": [
+            "frame_062_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8de7a9bb-a18c-4acc-9c41-3287583aa04b": [
+            "frame_063_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "8de7a9bb-a18c-4acc-9c41-3287583aa04b@f9941": [
+            "frame_063_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "586258f5-2f48-4303-8a45-35b62c45d128": [
+            "frame_064_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "586258f5-2f48-4303-8a45-35b62c45d128@f9941": [
+            "frame_064_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "4981aef6-eb01-464f-af82-60942eb5db2c": [
+            "frame_065_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "4981aef6-eb01-464f-af82-60942eb5db2c@f9941": [
+            "frame_065_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ac307639-dc1d-40c4-afe0-f7a8dbe15d03": [
+            "frame_066_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "ac307639-dc1d-40c4-afe0-f7a8dbe15d03@f9941": [
+            "frame_066_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "fae0daec-94bf-454c-aa7a-979c896d5755": [
+            "frame_067_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "fae0daec-94bf-454c-aa7a-979c896d5755@f9941": [
+            "frame_067_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8628fd8d-4862-4195-8d5e-300ead56bd76": [
+            "frame_068_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "8628fd8d-4862-4195-8d5e-300ead56bd76@f9941": [
+            "frame_068_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9af555c8-6a35-441f-8c1b-f06c430189fe": [
+            "frame_069_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "9af555c8-6a35-441f-8c1b-f06c430189fe@f9941": [
+            "frame_069_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b0d6853d-6025-4e7f-9882-c94f2cb3ce1e": [
+            "frame_070_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "b0d6853d-6025-4e7f-9882-c94f2cb3ce1e@f9941": [
+            "frame_070_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0f9ffa78-6924-4b81-84aa-db4125f68abf": [
+            "frame_071_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "0f9ffa78-6924-4b81-84aa-db4125f68abf@f9941": [
+            "frame_071_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "05b73be4-7591-4803-aa54-3adf7c08225a": [
+            "frame_072_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "05b73be4-7591-4803-aa54-3adf7c08225a@f9941": [
+            "frame_072_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9446cea1-43f2-4e6a-bde4-30f4cbfbab77": [
+            "frame_073_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "9446cea1-43f2-4e6a-bde4-30f4cbfbab77@f9941": [
+            "frame_073_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "105203c1-1ba3-420c-87b6-d8c4362e71b1": [
+            "frame_074_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "105203c1-1ba3-420c-87b6-d8c4362e71b1@f9941": [
+            "frame_074_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "4880344b-4345-462d-b00c-655652206413": [
+            "frame_075_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "4880344b-4345-462d-b00c-655652206413@f9941": [
+            "frame_075_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "14b4e9df-fc1c-44e2-b10d-6329ca74795e": [
+            "frame_076_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "14b4e9df-fc1c-44e2-b10d-6329ca74795e@f9941": [
+            "frame_076_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "172e76d4-b098-432b-a750-c9b0bee6b141": [
+            "frame_077_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "172e76d4-b098-432b-a750-c9b0bee6b141@f9941": [
+            "frame_077_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "28ca6e72-c2e5-4a82-9699-0cb2cd8e0e62": [
+            "frame_078_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "28ca6e72-c2e5-4a82-9699-0cb2cd8e0e62@f9941": [
+            "frame_078_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "bbcd99dd-388b-4a22-9193-592597ff2138": [
+            "frame_079_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "bbcd99dd-388b-4a22-9193-592597ff2138@f9941": [
+            "frame_079_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "11e00a5d-bc84-4675-9d70-61ce62d03134": [
+            "frame_080_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "11e00a5d-bc84-4675-9d70-61ce62d03134@f9941": [
+            "frame_080_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "78d21cd2-edfe-4dba-88f2-b178570a10cc": [
+            "frame_081_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "78d21cd2-edfe-4dba-88f2-b178570a10cc@f9941": [
+            "frame_081_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0fd35cf2-3fd0-43bd-ad7c-d92b316b38a1": [
+            "frame_082_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "0fd35cf2-3fd0-43bd-ad7c-d92b316b38a1@f9941": [
+            "frame_082_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "e67f78ff-3b04-4a86-bb9f-07371cec9a22": [
+            "frame_083_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "e67f78ff-3b04-4a86-bb9f-07371cec9a22@f9941": [
+            "frame_083_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "08bc9c41-1ed6-4caf-b296-28daabb37f3a": [
+            "frame_084_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "08bc9c41-1ed6-4caf-b296-28daabb37f3a@f9941": [
+            "frame_084_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ec36cf6e-640c-4e33-b823-b15860c09f39": [
+            "frame_085_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "ec36cf6e-640c-4e33-b823-b15860c09f39@f9941": [
+            "frame_085_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "62bb53c1-232a-472b-88c0-b9958c080b65": [
+            "frame_086_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "62bb53c1-232a-472b-88c0-b9958c080b65@f9941": [
+            "frame_086_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "cd53db8b-dc9d-465b-8dda-c2bf33353fee": [
+            "frame_087_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "cd53db8b-dc9d-465b-8dda-c2bf33353fee@f9941": [
+            "frame_087_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "5d97e9c7-6dc4-4dc3-b7d7-2e18528b6f7f": [
+            "frame_088_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "5d97e9c7-6dc4-4dc3-b7d7-2e18528b6f7f@f9941": [
+            "frame_088_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "2d3673e0-1b54-4731-bd67-22902478fec4": [
+            "frame_089_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "2d3673e0-1b54-4731-bd67-22902478fec4@f9941": [
+            "frame_089_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "e6fc5650-7092-45dc-9cf6-d2a745167563": [
+            "frame_090_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "e6fc5650-7092-45dc-9cf6-d2a745167563@f9941": [
+            "frame_090_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "2c37287f-cad7-419a-902b-69cd38d0f798": [
+            "frame_091_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "2c37287f-cad7-419a-902b-69cd38d0f798@f9941": [
+            "frame_091_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b51f8b49-4a85-48e3-bc36-3ecd5b669798": [
+            "frame_092_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "b51f8b49-4a85-48e3-bc36-3ecd5b669798@f9941": [
+            "frame_092_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "cfa89f30-c0b3-48ec-b3d3-0e5020c1e34f": [
+            "frame_093_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "cfa89f30-c0b3-48ec-b3d3-0e5020c1e34f@f9941": [
+            "frame_093_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "737cbe55-9016-44d5-94ee-baa4070520e6": [
+            "frame_094_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "737cbe55-9016-44d5-94ee-baa4070520e6@f9941": [
+            "frame_094_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "97dc1f22-cdf2-493a-903b-a1e1790f244e": [
+            "frame_095_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "97dc1f22-cdf2-493a-903b-a1e1790f244e@f9941": [
+            "frame_095_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "041b92e1-3782-4f8e-b425-5d623d16b066": [
+            "frame_096_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "041b92e1-3782-4f8e-b425-5d623d16b066@f9941": [
+            "frame_096_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "690542cd-0ae8-4cde-930c-19c16e003bcd": [
+            "frame_097_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "690542cd-0ae8-4cde-930c-19c16e003bcd@f9941": [
+            "frame_097_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ae19965c-30ff-4354-920d-15bde6da2a58": [
+            "frame_098_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "ae19965c-30ff-4354-920d-15bde6da2a58@f9941": [
+            "frame_098_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "053cc3b7-fd54-47de-95f4-691c8d5c3f95": [
+            "frame_099_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "053cc3b7-fd54-47de-95f4-691c8d5c3f95@f9941": [
+            "frame_099_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "24b5a86b-a3bb-4c56-8ec2-eb55e2a3eb3d": [
+            "frame_100_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "24b5a86b-a3bb-4c56-8ec2-eb55e2a3eb3d@f9941": [
+            "frame_100_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "cedefc8a-ac8b-480e-a4a3-17dd28aa1380": [
+            "frame_101_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "cedefc8a-ac8b-480e-a4a3-17dd28aa1380@f9941": [
+            "frame_101_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3833b588-3bab-438b-86ea-34581a5fb9a6": [
+            "frame_102_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "3833b588-3bab-438b-86ea-34581a5fb9a6@f9941": [
+            "frame_102_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "5b7893da-79f2-4129-9ea8-957cd67f3d67": [
+            "frame_103_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "5b7893da-79f2-4129-9ea8-957cd67f3d67@f9941": [
+            "frame_103_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7ad0a36c-73da-46d0-a174-b58c70a58c50": [
+            "frame_104_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "7ad0a36c-73da-46d0-a174-b58c70a58c50@f9941": [
+            "frame_104_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "462de424-d7fd-4c6b-afb3-971071909b0c": [
+            "frame_105_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "462de424-d7fd-4c6b-afb3-971071909b0c@f9941": [
+            "frame_105_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "a63581d2-8d11-4769-aa72-3eafe5c5b338": [
+            "frame_106_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "a63581d2-8d11-4769-aa72-3eafe5c5b338@f9941": [
+            "frame_106_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b61b48d6-0795-4978-bed2-bde43afcd7ad": [
+            "frame_107_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "b61b48d6-0795-4978-bed2-bde43afcd7ad@f9941": [
+            "frame_107_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "06eba827-f701-4b5e-8c9f-f2a057a40c75": [
+            "frame_108_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "06eba827-f701-4b5e-8c9f-f2a057a40c75@f9941": [
+            "frame_108_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "e31998a0-2688-43a6-bf07-181ce231c319": [
+            "frame_109_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "e31998a0-2688-43a6-bf07-181ce231c319@f9941": [
+            "frame_109_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d116c48b-ed02-40b2-ac57-3295d5ac8d20": [
+            "frame_110_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "d116c48b-ed02-40b2-ac57-3295d5ac8d20@f9941": [
+            "frame_110_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0d5c46a3-43fb-4a36-a665-fb09ea933232": [
+            "frame_111_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "0d5c46a3-43fb-4a36-a665-fb09ea933232@f9941": [
+            "frame_111_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d9653ed0-ea95-4338-97d8-3edc70a35b45": [
+            "frame_112_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "d9653ed0-ea95-4338-97d8-3edc70a35b45@f9941": [
+            "frame_112_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7570b2e5-c7d1-4b57-a8ce-72b8aaa2fe9b": [
+            "frame_113_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "7570b2e5-c7d1-4b57-a8ce-72b8aaa2fe9b@f9941": [
+            "frame_113_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "1cb73394-c08d-4dd6-959e-c69b48574cc8": [
+            "frame_114_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "1cb73394-c08d-4dd6-959e-c69b48574cc8@f9941": [
+            "frame_114_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "52abbeb3-c36e-48d8-aea4-f147210020ca": [
+            "frame_115_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "52abbeb3-c36e-48d8-aea4-f147210020ca@f9941": [
+            "frame_115_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f2a6e699-d164-41ad-a7f1-86763df3f36c": [
+            "frame_116_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "f2a6e699-d164-41ad-a7f1-86763df3f36c@f9941": [
+            "frame_116_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "dc567b85-38f4-4c4e-9fdf-843ccdd2479f": [
+            "frame_117_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "dc567b85-38f4-4c4e-9fdf-843ccdd2479f@f9941": [
+            "frame_117_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b576eaa5-7ca1-403b-9132-146cf36b151c": [
+            "frame_118_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "b576eaa5-7ca1-403b-9132-146cf36b151c@f9941": [
+            "frame_118_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "55ce76d8-3c28-407a-b34c-55ab7af416c9": [
+            "frame_119_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "55ce76d8-3c28-407a-b34c-55ab7af416c9@f9941": [
+            "frame_119_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "348aa960-42b6-4e5a-8db1-d1e0bd9db8d2": [
+            "frame_120_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "348aa960-42b6-4e5a-8db1-d1e0bd9db8d2@f9941": [
+            "frame_120_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "774ebcfc-75c5-4609-9751-0f4805c3adcf": [
+            "frame_121_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "774ebcfc-75c5-4609-9751-0f4805c3adcf@f9941": [
+            "frame_121_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "eb8459fd-3bb7-465c-9b52-50d037509516": [
+            "frame_122_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "eb8459fd-3bb7-465c-9b52-50d037509516@f9941": [
+            "frame_122_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "622d8ac1-d9b3-4636-be58-ef75258fbba0": [
+            "frame_123_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "622d8ac1-d9b3-4636-be58-ef75258fbba0@f9941": [
+            "frame_123_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "5c4c4641-5eb3-4678-ad02-e9b6f426d6c7": [
+            "frame_124_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "5c4c4641-5eb3-4678-ad02-e9b6f426d6c7@f9941": [
+            "frame_124_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "6b5d479a-fee3-4135-ac87-11010d3b02fa": [
+            "frame_125_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "6b5d479a-fee3-4135-ac87-11010d3b02fa@f9941": [
+            "frame_125_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f8590614-aa27-43f7-8db2-2baa2b5eb8d1": [
+            "frame_126_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "f8590614-aa27-43f7-8db2-2baa2b5eb8d1@f9941": [
+            "frame_126_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8a28f233-c761-4f28-b27d-32678e19ca88": [
+            "frame_127_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "8a28f233-c761-4f28-b27d-32678e19ca88@f9941": [
+            "frame_127_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "e0b5fe2c-e863-4468-a173-b72142f69ecb": [
+            "frame_128_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "e0b5fe2c-e863-4468-a173-b72142f69ecb@f9941": [
+            "frame_128_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f9cabac5-40e6-4a6a-974b-3bfdd7165eb4": [
+            "frame_129_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "f9cabac5-40e6-4a6a-974b-3bfdd7165eb4@f9941": [
+            "frame_129_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "40589f18-30db-4cf0-9586-27ebdf893a9d": [
+            "frame_130_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "40589f18-30db-4cf0-9586-27ebdf893a9d@f9941": [
+            "frame_130_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ca9c79e5-d4c0-4fb8-9dee-3a134985ac5d": [
+            "frame_131_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "ca9c79e5-d4c0-4fb8-9dee-3a134985ac5d@f9941": [
+            "frame_131_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c3f82020-66b6-4d63-8893-c38a61122a63": [
+            "frame_132_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "c3f82020-66b6-4d63-8893-c38a61122a63@f9941": [
+            "frame_132_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3acb362e-f670-4507-acf8-5e317d1558a6": [
+            "frame_133_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "3acb362e-f670-4507-acf8-5e317d1558a6@f9941": [
+            "frame_133_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "501306fd-b712-41a0-b06b-da1fab075261": [
+            "frame_134_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "501306fd-b712-41a0-b06b-da1fab075261@f9941": [
+            "frame_134_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d4fe53ad-aae6-4f4d-8db2-0dd0b74ecbdb": [
+            "frame_135_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "d4fe53ad-aae6-4f4d-8db2-0dd0b74ecbdb@f9941": [
+            "frame_135_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "58fbaa94-2eac-4b97-8506-67e589153fef": [
+            "frame_136_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "58fbaa94-2eac-4b97-8506-67e589153fef@f9941": [
+            "frame_136_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ffa52cbc-e338-43c7-8f11-f2a6823a1775": [
+            "frame_137_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "ffa52cbc-e338-43c7-8f11-f2a6823a1775@f9941": [
+            "frame_137_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "aa571b24-b292-4b10-8c5f-f6fab914d751": [
+            "frame_138_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "aa571b24-b292-4b10-8c5f-f6fab914d751@f9941": [
+            "frame_138_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "91930e4b-e97f-4b91-8973-80d364b97b12": [
+            "frame_139_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "91930e4b-e97f-4b91-8973-80d364b97b12@f9941": [
+            "frame_139_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "89ba6ec0-4278-4172-81c6-d011461e8498": [
+            "frame_140_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "89ba6ec0-4278-4172-81c6-d011461e8498@f9941": [
+            "frame_140_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "34969bcd-c48b-43c4-8b23-60d29e3d618d": [
+            "frame_141_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "34969bcd-c48b-43c4-8b23-60d29e3d618d@f9941": [
+            "frame_141_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "574fc160-31c4-45c0-abf7-469790bdc982": [
+            "frame_142_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "574fc160-31c4-45c0-abf7-469790bdc982@f9941": [
+            "frame_142_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0deaa978-df0f-4003-a357-a34c1f770dda": [
+            "frame_143_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "0deaa978-df0f-4003-a357-a34c1f770dda@f9941": [
+            "frame_143_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3d4f2f8b-ed7f-4d4f-8c48-392c3b709699": [
+            "frame_144_delay-0.04s",
+            "cc.ImageAsset",
+            1
+        ],
+        "3d4f2f8b-ed7f-4d4f-8c48-392c3b709699@f9941": [
+            "frame_144_delay-0.04s/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ba136cb0-e38d-4436-9046-ff745de44dcb": [
+            "game5",
+            "cc.Prefab",
+            1
+        ],
+        "ad2a5e79-5339-403f-af78-214d2d707a6a": [
+            "mario",
+            "cc.AnimationClip",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {
+        "0ad124bf0": [
+            "1a06ffea0@6c48a",
+            "1a79b8459@6c48a",
+            "1a627ef64@6c48a",
+            "1a62955ba@6c48a",
+            "1b9fbc66a@6c48a",
+            "1b65e88cc@6c48a",
+            "1c6c6f1ec@6c48a",
+            "1ce8c696d@6c48a",
+            "1d2a9de85@6c48a",
+            "1d7e031c2@6c48a",
+            "1d41b0a46@6c48a",
+            "1d5296b31@6c48a",
+            "1d38751ca@6c48a",
+            "1e0475957@6c48a",
+            "1ebde6c12@6c48a",
+            "1ec992a7b@6c48a",
+            "11ce7f600@6c48a",
+            "12a3f0200@6c48a",
+            "12aad8f4e@6c48a",
+            "13ba25e0c@6c48a",
+            "13fbee53c@6c48a",
+            "16ee4da91@6c48a",
+            "111d12718@6c48a",
+            "119d1844c@6c48a",
+            "124f7b43b@6c48a",
+            "124fece87@6c48a",
+            "148e7fe05@6c48a",
+            "156ed0135@6c48a",
+            "171e661df@6c48a",
+            "176a773ec@6c48a",
+            "176b04dc8@6c48a",
+            "192bd22b0@6c48a",
+            "11849f28f@6c48a",
+            "13077b721@6c48a",
+            "13624ae32@6c48a",
+            "1400007c0@6c48a",
+            "116432868@6c48a"
+        ],
+        "0e0475957": [
+            "00098715-1768-4ace-947c-1e768638709c@f9941",
+            "00e77f0c-d35e-42a7-bd3f-e31fc58b27f9@f9941",
+            "01019b5b-bc22-45e7-b704-2c1262b2be01@f9941",
+            "041b92e1-3782-4f8e-b425-5d623d16b066@f9941"
+        ],
+        "0d41b0a46": [
+            "053cc3b7-fd54-47de-95f4-691c8d5c3f95@f9941",
+            "05b73be4-7591-4803-aa54-3adf7c08225a@f9941",
+            "06eba827-f701-4b5e-8c9f-f2a057a40c75@f9941",
+            "06ffad9f-d843-49db-afd4-0958d0baacbb@f9941"
+        ],
+        "011d12718": [
+            "08bc9c41-1ed6-4caf-b296-28daabb37f3a@f9941",
+            "0d5c46a3-43fb-4a36-a665-fb09ea933232@f9941",
+            "0d9a4eef-9077-4afc-8520-01367b66fcde@f9941",
+            "0deaa978-df0f-4003-a357-a34c1f770dda@f9941"
+        ],
+        "0d5296b31": [
+            "0f9ffa78-6924-4b81-84aa-db4125f68abf@f9941",
+            "0fd35cf2-3fd0-43bd-ad7c-d92b316b38a1@f9941",
+            "105203c1-1ba3-420c-87b6-d8c4362e71b1@f9941",
+            "11e00a5d-bc84-4675-9d70-61ce62d03134@f9941"
+        ],
+        "0a79b8459": [
+            "14872e22-99e1-494b-ad21-650564d15859@f9941",
+            "14b4e9df-fc1c-44e2-b10d-6329ca74795e@f9941",
+            "172e76d4-b098-432b-a750-c9b0bee6b141@f9941",
+            "19d629c5-bef5-4ec0-bdbf-8ee310a820a8@f9941"
+        ],
+        "03fbee53c": [
+            "1abd8aec-cc8f-4421-8f3d-599c5e814fc4@f9941",
+            "1cb73394-c08d-4dd6-959e-c69b48574cc8@f9941",
+            "1e8da591-a251-4b51-9c2d-c444d98324a0@f9941",
+            "20d21f8f-e8f8-4f48-b8a4-5f209b2c116f@f9941"
+        ],
+        "0d2a9de85": [
+            "24b5a86b-a3bb-4c56-8ec2-eb55e2a3eb3d@f9941",
+            "269de738-c141-4850-ade3-54f03f6625c3@f9941",
+            "26bd1f87-90bb-4d2d-baa1-8a5de3527507@f9941",
+            "28899809-3fa5-4e97-9fd9-0b5d4496b985@f9941"
+        ],
+        "0d38751ca": [
+            "28ca6e72-c2e5-4a82-9699-0cb2cd8e0e62@f9941",
+            "2b5b5b94-22c2-4ce3-85d6-53f2ae63403c@f9941",
+            "2c37287f-cad7-419a-902b-69cd38d0f798@f9941",
+            "2d3673e0-1b54-4731-bd67-22902478fec4@f9941"
+        ],
+        "048e7fe05": [
+            "320226c2-c8b5-453b-aa95-ff9488602a69@f9941",
+            "348aa960-42b6-4e5a-8db1-d1e0bd9db8d2@f9941",
+            "34969bcd-c48b-43c4-8b23-60d29e3d618d@f9941",
+            "3620baad-5e9d-41b2-b3bb-7e2ea88fda94@f9941"
+        ],
+        "0ebde6c12": [
+            "3833b588-3bab-438b-86ea-34581a5fb9a6@f9941",
+            "38d90121-fa90-48db-8431-c2a44ed1abf6@f9941",
+            "3acb362e-f670-4507-acf8-5e317d1558a6@f9941",
+            "3d4f2f8b-ed7f-4d4f-8c48-392c3b709699@f9941"
+        ],
+        "056ed0135": [
+            "40589f18-30db-4cf0-9586-27ebdf893a9d@f9941",
+            "436a0b31-4e7f-45d3-a506-cb114d6bbc34@f9941",
+            "462de424-d7fd-4c6b-afb3-971071909b0c@f9941",
+            "4880344b-4345-462d-b00c-655652206413@f9941"
+        ],
+        "03ba25e0c": [
+            "4981aef6-eb01-464f-af82-60942eb5db2c@f9941",
+            "49fab386-23b5-4c40-942f-a481b9abf979@f9941",
+            "501306fd-b712-41a0-b06b-da1fab075261@f9941",
+            "50cc5629-1ac8-48c7-8a9e-9e3bec026534@f9941"
+        ],
+        "019d1844c": [
+            "51b5f0f7-def5-42ed-8751-7f6a0372f9b1@f9941",
+            "52abbeb3-c36e-48d8-aea4-f147210020ca@f9941",
+            "53959991-d888-48f9-83eb-d1b468a80d03@f9941",
+            "545f4376-35ad-47c6-8fe8-d2f40580d257@f9941"
+        ],
+        "024f7b43b": [
+            "55ce76d8-3c28-407a-b34c-55ab7af416c9@f9941",
+            "571df984-09f5-4a43-abed-cdedc2942975@f9941",
+            "574fc160-31c4-45c0-abf7-469790bdc982@f9941",
+            "586258f5-2f48-4303-8a45-35b62c45d128@f9941"
+        ],
+        "0b65e88cc": [
+            "58b67437-0b16-415d-80fd-5e01409e654c@f9941",
+            "58fbaa94-2eac-4b97-8506-67e589153fef@f9941",
+            "5b7893da-79f2-4129-9ea8-957cd67f3d67@f9941",
+            "5c4c4641-5eb3-4678-ad02-e9b6f426d6c7@f9941"
+        ],
+        "0a627ef64": [
+            "5d97e9c7-6dc4-4dc3-b7d7-2e18528b6f7f@f9941",
+            "5e238b29-a3f0-4f93-a40e-04dd7f3e9897@f9941",
+            "622d8ac1-d9b3-4636-be58-ef75258fbba0@f9941",
+            "62bb53c1-232a-472b-88c0-b9958c080b65@f9941"
+        ],
+        "024fece87": [
+            "63df2df0-5165-4e3f-8d0c-0e643ca49120@f9941",
+            "690542cd-0ae8-4cde-930c-19c16e003bcd@f9941",
+            "6b5d479a-fee3-4135-ac87-11010d3b02fa@f9941",
+            "6c20d773-9624-4d8a-85ce-a615c83b5bcd@f9941"
+        ],
+        "092bd22b0": [
+            "6f330d67-cd16-4d13-8148-ddd616684661@f9941",
+            "71922781-45b0-41b8-9092-9f1a573cc7d0@f9941",
+            "737cbe55-9016-44d5-94ee-baa4070520e6@f9941",
+            "7570b2e5-c7d1-4b57-a8ce-72b8aaa2fe9b@f9941"
+        ],
+        "01ce7f600": [
+            "7724492d-1f4c-41f7-ae4d-f765be8ac231@f9941",
+            "774ebcfc-75c5-4609-9751-0f4805c3adcf@f9941",
+            "77c3897f-3413-4b62-b942-3458757d9f74@f9941",
+            "78d21cd2-edfe-4dba-88f2-b178570a10cc@f9941"
+        ],
+        "0ce8c696d": [
+            "7ad0a36c-73da-46d0-a174-b58c70a58c50@f9941",
+            "7be9afd2-74c6-41b3-8ae5-81db8583ea1c@f9941",
+            "7e1923a7-efd7-4c74-ae53-94689e0adea2@f9941",
+            "8346c1d0-3ca0-4350-9312-e6ef2933d2e8@f9941"
+        ],
+        "0a06ffea0": [
+            "84b52de0-edfc-4e1b-9c6a-219103c6bbb3@f9941",
+            "85050199-139e-4d40-93c7-d73f97a60df4@f9941",
+            "8628fd8d-4862-4195-8d5e-300ead56bd76@f9941",
+            "89ba6ec0-4278-4172-81c6-d011461e8498@f9941"
+        ],
+        "02a3f0200": [
+            "8a28f233-c761-4f28-b27d-32678e19ca88@f9941",
+            "8de7a9bb-a18c-4acc-9c41-3287583aa04b@f9941",
+            "8e209c35-31cf-4ca7-9847-e494b4f25e6a@f9941",
+            "8e9579db-2944-4e00-854c-3d06050e45bc@f9941"
+        ],
+        "0d7e031c2": [
+            "91930e4b-e97f-4b91-8973-80d364b97b12@f9941",
+            "9446cea1-43f2-4e6a-bde4-30f4cbfbab77@f9941",
+            "97dc1f22-cdf2-493a-903b-a1e1790f244e@f9941",
+            "98c0590f-cd64-4b32-bc58-f9ab57c8e175@f9941"
+        ],
+        "01849f28f": [
+            "9959dd70-57f1-4f68-a3cb-7b1e96410a91@f9941",
+            "9af555c8-6a35-441f-8c1b-f06c430189fe@f9941",
+            "9bad7863-fc2f-4cc6-a2c3-a9f1a32b76d3@f9941",
+            "9dcccd90-191d-4d77-94a0-72261add45fc@f9941"
+        ],
+        "016432868": [
+            "9ebefd66-fa33-4a1b-a320-f3f807143fef@f9941",
+            "a4035352-ab8b-45ef-9ca2-ef10c9db87f1@f9941",
+            "a63581d2-8d11-4769-aa72-3eafe5c5b338@f9941",
+            "a901f223-49ab-4934-bf73-e76273b2dfd9@f9941"
+        ],
+        "0ec992a7b": [
+            "aa571b24-b292-4b10-8c5f-f6fab914d751@f9941",
+            "ac307639-dc1d-40c4-afe0-f7a8dbe15d03@f9941",
+            "add69a01-8fee-4219-a027-7530fdef3595@f9941",
+            "ae19965c-30ff-4354-920d-15bde6da2a58@f9941"
+        ],
+        "0c6c6f1ec": [
+            "aed99791-6acc-4f73-842d-6b2dc2326084@f9941",
+            "aff1191b-10a0-47d5-9f6d-f9de15c3d330@f9941",
+            "b0d6853d-6025-4e7f-9882-c94f2cb3ce1e@f9941",
+            "b2ebf924-9263-4629-980e-f6eded62f412@f9941"
+        ],
+        "076a773ec": [
+            "b51f8b49-4a85-48e3-bc36-3ecd5b669798@f9941",
+            "b576eaa5-7ca1-403b-9132-146cf36b151c@f9941",
+            "b61b48d6-0795-4978-bed2-bde43afcd7ad@f9941",
+            "b9a260a4-6a98-4ab7-83ca-f7a231ff2e58@f9941"
+        ],
+        "0400007c0": [
+            "bbcd99dd-388b-4a22-9193-592597ff2138@f9941",
+            "c284203a-a97c-400f-b08c-2331a5ea6a32@f9941",
+            "c3f82020-66b6-4d63-8893-c38a61122a63@f9941",
+            "ca9c79e5-d4c0-4fb8-9dee-3a134985ac5d@f9941"
+        ],
+        "02aad8f4e": [
+            "cd53db8b-dc9d-465b-8dda-c2bf33353fee@f9941",
+            "cedefc8a-ac8b-480e-a4a3-17dd28aa1380@f9941",
+            "cfa89f30-c0b3-48ec-b3d3-0e5020c1e34f@f9941",
+            "d116c48b-ed02-40b2-ac57-3295d5ac8d20@f9941"
+        ],
+        "03624ae32": [
+            "d3f35ad3-8281-4d2f-88b3-19cb9b77d9db@f9941",
+            "d4234b0e-0661-4883-aad5-157304c1c6d8@f9941",
+            "d4fe53ad-aae6-4f4d-8db2-0dd0b74ecbdb@f9941",
+            "d6526033-cfe1-47f9-bd34-e2c59bf400a2@f9941"
+        ],
+        "0b9fbc66a": [
+            "d9653ed0-ea95-4338-97d8-3edc70a35b45@f9941",
+            "dc567b85-38f4-4c4e-9fdf-843ccdd2479f@f9941",
+            "e0b5fe2c-e863-4468-a173-b72142f69ecb@f9941",
+            "e31998a0-2688-43a6-bf07-181ce231c319@f9941"
+        ],
+        "06ee4da91": [
+            "e67f78ff-3b04-4a86-bb9f-07371cec9a22@f9941",
+            "e6fc5650-7092-45dc-9cf6-d2a745167563@f9941",
+            "e6fc6f89-e255-44f1-b947-31ec8db9e4df@f9941",
+            "eb58410b-c3d0-4e84-81ac-8c51ccdbf646@f9941"
+        ],
+        "03077b721": [
+            "eb716c6e-cba8-4f1a-88ea-a5bd3640b226@f9941",
+            "eb8459fd-3bb7-465c-9b52-50d037509516@f9941",
+            "ec36cf6e-640c-4e33-b823-b15860c09f39@f9941",
+            "edbe8a0e-087a-4b1c-b275-a220b66474bc@f9941"
+        ],
+        "0a62955ba": [
+            "f2a6e699-d164-41ad-a7f1-86763df3f36c@f9941",
+            "f8590614-aa27-43f7-8db2-2baa2b5eb8d1@f9941",
+            "f8e479d3-f89b-4491-b6f9-d1bc351d4bb6@f9941",
+            "f9cabac5-40e6-4a6a-974b-3bfdd7165eb4@f9941"
+        ],
+        "076b04dc8": [
+            "fae0daec-94bf-454c-aa7a-979c896d5755@f9941",
+            "fb8f3b14-b1f0-46ac-b11e-742b002f83a1@f9941",
+            "fcb49f88-38a3-42a4-9c94-baa9cbe99d44@f9941",
+            "ff3c2aba-d74d-41f3-98dc-e452d2efef60@f9941"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "0",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "0",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "0"
+    ],
+    "debug": true,
+    "extensionMap": {
+        ".cconb": [
+            "ad2a5e79-5339-403f-af78-214d2d707a6a"
+        ]
+    },
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}

@@ -1502,6 +1502,105 @@ System.register("chunks:///_virtual/GameCategoryMenu.ts", ['./rollupPluginModLoB
   };
 });
 
+System.register("chunks:///_virtual/GameLoader.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
+  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, Node, assetManager, Prefab, instantiate, Layout, Component;
+  return {
+    setters: [function (module) {
+      _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
+      _inheritsLoose = module.inheritsLoose;
+      _initializerDefineProperty = module.initializerDefineProperty;
+      _assertThisInitialized = module.assertThisInitialized;
+    }, function (module) {
+      cclegacy = module.cclegacy;
+      _decorator = module._decorator;
+      Node = module.Node;
+      assetManager = module.assetManager;
+      Prefab = module.Prefab;
+      instantiate = module.instantiate;
+      Layout = module.Layout;
+      Component = module.Component;
+    }],
+    execute: function () {
+      var _dec, _dec2, _class, _class2, _descriptor;
+      cclegacy._RF.push({}, "436e7AK+o9OQogaxsgwvouu", "GameLoader", undefined);
+      var ccclass = _decorator.ccclass,
+        property = _decorator.property;
+      var GameLoader = exports('GameLoader', (_dec = ccclass('GameLoader'), _dec2 = property(Node), _dec(_class = (_class2 = /*#__PURE__*/function (_Component) {
+        _inheritsLoose(GameLoader, _Component);
+        function GameLoader() {
+          var _this;
+          for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+          }
+          _this = _Component.call.apply(_Component, [this].concat(args)) || this;
+          _initializerDefineProperty(_this, "layoutNode", _descriptor, _assertThisInitialized(_this));
+          // DAFTAR BUNDLE (FOLDER)
+          // 7 Game pertama punya folder sendiri, 5 Game terakhir barengan di folder 'gametumpuk'
+          _this.bundles = ['zeus', 'scorpio', 'skull', 'darkshadow', 'mario', 'flash', 'pokemon', 'gametumpuk', 'gametumpuk', 'gametumpuk', 'gametumpuk', 'gametumpuk'];
+          // DAFTAR PREFAB (FILE)
+          // Pastikan nama file biru (prefab) di folder Assets sama persis dengan tulisan di bawah ini
+          _this.prefabs = ['game1', 'game2', 'game3', 'game4', 'game5', 'game6', 'game7', 'game8_tumpuk', 'game9_tumpuk', 'game10_tumpuk', 'game11_tumpuk', 'game12_tumpuk'];
+          return _this;
+        }
+        var _proto = GameLoader.prototype;
+        _proto.start = function start() {
+          console.log("Memulai proses loading game secara berurutan...");
+          this.loadGamesSequentially(0);
+        };
+        _proto.loadGamesSequentially = function loadGamesSequentially(index) {
+          var _this2 = this;
+          // Cek apakah semua sudah dipanggil
+          if (index >= this.bundles.length) {
+            console.log("Selesai! Semua game (1 sampai 12) sudah muncul di layout.");
+            return;
+          }
+          var currentBundle = this.bundles[index];
+          var currentPrefab = this.prefabs[index];
+
+          // 1. Buka Bundle
+          assetManager.loadBundle(currentBundle, function (err, bundle) {
+            if (err) {
+              console.error("Gagal membuka bundle folder: " + currentBundle, err);
+              _this2.loadGamesSequentially(index + 1); // Tetap lanjut ke game berikutnya jika error
+              return;
+            }
+
+            // 2. Load Prefab dari dalam Bundle
+            bundle.load(currentPrefab, Prefab, function (err, prefab) {
+              if (!err) {
+                // 3. Munculkan di Hierarchy bawah node 'gamelay'
+                var newNode = instantiate(prefab);
+                newNode.parent = _this2.layoutNode;
+
+                // 4. Langsung rapatkan barisan layout
+                var layoutComp = _this2.layoutNode.getComponent(Layout);
+                if (layoutComp) {
+                  layoutComp.updateLayout();
+                }
+                console.log("Berhasil memuat: " + currentPrefab + " dari bundle: " + currentBundle);
+              } else {
+                console.error("Gagal memuat prefab: " + currentPrefab + " di bundle: " + currentBundle, err);
+              }
+
+              // 5. Lanjut panggil urutan berikutnya
+              _this2.loadGamesSequentially(index + 1);
+            });
+          });
+        };
+        return GameLoader;
+      }(Component), _descriptor = _applyDecoratedDescriptor(_class2.prototype, "layoutNode", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _class2)) || _class));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
 System.register("chunks:///_virtual/GameManager.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
   var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, Node, log, sys, Component;
   return {
@@ -1841,9 +1940,9 @@ System.register("chunks:///_virtual/JiggleAnimation.ts", ['./rollupPluginModLoBa
   };
 });
 
-System.register("chunks:///_virtual/main", ['./GameCategoryMenu.ts', './ProviderSearch.ts', './SceneChanger.ts', './AutoPopup.ts', './AutoSlider.ts', './BreathingLight.ts', './ButtonHover.ts', './CheckboxController.ts', './DraggableButton.ts', './DropdownToggle.ts', './GameManager.ts', './GlowGenerator.ts', './JiggleAnimation.ts', './MaskProbe.ts', './ModalManager.ts', './ServiceModal.ts', './VideoClipper2.ts', './border2.ts', './TouchPropagator.ts', './border.ts', './dropdown-search.ts', './videoclipper.ts'], function () {
+System.register("chunks:///_virtual/main", ['./GameCategoryMenu.ts', './ProviderSearch.ts', './SceneChanger.ts', './AutoPopup.ts', './AutoSlider.ts', './BreathingLight.ts', './ButtonHover.ts', './CheckboxController.ts', './DraggableButton.ts', './DropdownToggle.ts', './GameLoader.ts', './GameManager.ts', './GlowGenerator.ts', './JiggleAnimation.ts', './MaskProbe.ts', './ModalManager.ts', './ServiceModal.ts', './VideoClipper2.ts', './border2.ts', './TouchPropagator.ts', './border.ts', './dropdown-search.ts', './videoclipper.ts'], function () {
   return {
-    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     execute: function () {}
   };
 });
